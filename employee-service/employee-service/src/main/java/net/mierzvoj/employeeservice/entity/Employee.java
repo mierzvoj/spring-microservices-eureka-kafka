@@ -21,6 +21,7 @@ public class Employee {
     private String lastName;
     @Column(unique=true)
     private String email;
+    private String departmentCode;
 
     public Employee(Long id, Object o) {
     }
